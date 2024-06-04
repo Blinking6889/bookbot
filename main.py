@@ -1,7 +1,8 @@
+#word count
 def wc(fc):
     wc = len(fc.split())
     return wc
-
+#letter count
 def lc(fc):
     lc = []
     for i in fc.split():
