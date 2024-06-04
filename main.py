@@ -2,17 +2,14 @@
 def wc(fc):
     wc = len(fc.split())
     return wc
+
 #letter count
 def lc(fc):
     lc = []
     for i in fc.split():
-        #lc[i] += 1
         lc.append(i)
     new_string = "".join(lc)
-    count = 0
-    for i in new_string:
-        count += 1
-    return(count)
+    return(len(new_string))
 
 def main():
     with open("books/frankenstein.txt") as f:
